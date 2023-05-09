@@ -8,12 +8,9 @@ export type ExampleModel = {
 };
 
 const EXAMPLES: ExampleModel[] = [
-    {
-        text: "What is included in my Northwind Health Plus plan that is not in standard?",
-        value: "What is included in my Northwind Health Plus plan that is not in standard?"
-    },
-    { text: "What happens in a performance review?", value: "What happens in a performance review?" },
-    { text: "What does a Product Manager do?", value: "What does a Product Manager do?" }
+    { text: "What is Multifactor Authentication?", value: "What is Multifactor Authentication?"  },
+    { text: "How to use shared Siemens NX licences?", value: "How to use shared Siemens NX licences?" },
+    { text: "How to install and setup program ECTR?", value: "How to install and setup program ECTR?" }
 ];
 
 interface Props {
